@@ -1,0 +1,105 @@
+/* Signup Container */
+.signup-container {
+    text-align: center;
+    background: #1e1e2f; /* Dark background */
+    padding: 30px 25px;
+    width: 350px;
+    margin: 50px auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.signup-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.5);
+}
+
+/* Signup Heading */
+.signup-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #ffd700; /* subtle gold highlight */
+}
+
+/* Inputs */
+.signup-container input {
+    display: block;
+    width: 100%;
+    padding: 12px 15px;
+    margin: 12px 0;
+    border: none;
+    border-radius: 8px;
+    background: #2b2b3d;
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.signup-container input:focus {
+    background-color: #3a3a5a;
+    box-shadow: 0 0 8px #007bff;
+}
+
+/* Main Signup Button */
+.signup-container button {
+    background: #007bff;
+    color: #fff;
+    padding: 12px 15px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.signup-container button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Optional: Additional Signup Buttons (Google, Facebook, etc.) */
+.signup-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.signup-buttons button {
+    background: #3a3a5a;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 500;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.signup-buttons button:hover {
+    background: #505070;
+    transform: translateY(-2px);
+}
+
+/* Links for login */
+.signup-container p {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #bbb;
+}
+
+.signup-container p a {
+    color: #ffd700;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.signup-container p a:hover {
+    color: #fff;
+}
